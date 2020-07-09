@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
 body {
   background: #de6161; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -10,12 +12,15 @@ body {
     #2657eb,
     #de6161
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 100vh;
+  height: 100%;
+  font-family: "Quicksand", sans-serif;
 }
+
 /* 
 .is-transparent {
   background: transparent;
 } */
+
 .is-tab {
   color: black;
 }
@@ -34,4 +39,22 @@ body {
 .img3 {
   position: absolute;
   left: 160px;
+}
+
+.circle {
+  border: 1px solid #de6161;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+
+.text-grey {
+  color: #666;
+}
+
+.icon-size {
+}
+
+#position {
+  position: absolute;
 }
